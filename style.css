@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+.container {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    height: 90%;
+    background-color: #eee;
+    background-attachment: fixed;
+}
+
+.con1{
+    margin: 10px;
+    height: 750px;
+    width: 20%;
+    background-color: #eee;
+    overflow: hidden;
+}
+
+.con2 {
+    margin: 10px;
+    height: 850px;
+    width: 80%;
+    background-color: #eee;
+    overflow: hidden;
+}
+
+.child1{
+    height: 100px;
+    margin:  25px auto;
+    padding-bottom: 80px;
+    width: 230px;
+    border-radius: 15px;
+    background: linear-gradient(-35deg, #ee7752, #e73c7e, #9581F4, #23a6d5, #23d5ab);
+}
+
+.hfour{
+    padding-left: 15px;
+    padding-top: 50px;
+    line-height: 1px;
+    color: white;
+}
+
+.p1{
+    padding-top: 10px;
+    padding-left: 15px;
+    color: #eee;
+}
+
+.child2{
+    height: 130px;
+    margin:  25px auto;
+    padding-bottom: 80px;
+    width: 230px;
+    border-radius: 15px;
+    overflow: hidden;
+    background-color: white;
+}
+
+.child2 ul{
+    justify-content: space-evenly;
+    list-style: none;
+    text-decoration: none;
+}
+
+.button{
+    margin-left: 5px;
+}
+
+button{
+    cursor: pointer;
+    height: 25px;
+    margin: 10px auto;
+    border: none;
+    color: rgb(5, 5, 73);
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-right: 15px;
+}
+
+.all{
+    background-color: blue;
+    color: white;
+}
+
+.child3{
+    background-color: white;
+    height: 150px;
+    margin:  25px auto;
+    padding-bottom: 80px;
+    width: 240px;
+    border-radius: 10px;
+}
+
+.road{
+    margin: -5px auto;
+    line-height: 55px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.roadmap{
+    font-size: 10px;
+    font-weight: 600;
+}
+
+.road1, .road2, .road3{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.road1 i{
+    color: rgb(196, 16, 121);
+    font-size: 8px;
+}
+
+.road2 i{
+    color: purple;
+    font-size: 8px;
+}
+
+.road3 i{
+    color: aqua;
+    font-size: 8px;
+}
+
+.txt{
+    padding-right: 90px;
+}
+
+.text{
+    padding-right: 20px;
+}
+
+.box1{
+    height: 60px ;
+    margin:  15px auto;
+    border-radius: 5px;
+    background-color: #433292;
+}
+
+.box2, .box3, .box4, .box5, .box6, .box7{
+    height: 110px;
+    margin:  20px auto;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.box1 ul{
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+.box1 ul .award{
+    font-size: 30px;
+}
+
+.box1 ul .plus{
+    color: white;
+}
+
+.top{
+    padding-left: 15px;
+    padding-top: 15px;
+    align-items: center;
+    text-align: center;
+}
+
+.box1 ul .feeback{
+    color: white;
+    background-color: purple;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-radius: 5px;
+    height: 30px;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.box2 ul, .box3 ul, .box4 ul, .box5 ul, .box6 ul, .box7 ul{
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.top1, .top2, .top3, .top4, .top5, .top6{
+    padding-left: 15px;
+    padding-top: 10px;
+    margin-right: 15px;
+}
+
+
+.txt99{
+    font-size: 10px;
+}
+
+.blue{
+    color: blue;
+}
+
+.angle{
+    cursor: pointer;
+    background-color: grey;
+    height: 70px;
+    width: 50px;
+    text-align: center;
+    border-radius: 7px;
+    justify-content: center;
+}
+
+.comment{
+    color: grey;
+}
